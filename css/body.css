@@ -181,3 +181,144 @@ descriptionArticleMenuButton {
     color: #ff556e;
     transform: scale(1.1);
   }
+
+
+/* Estilos para pantallas grandes */
+@media (min-width: 768px) {
+  .descriptionArticle {
+    display: flex;
+  }
+
+  .descriptionArticleImage {
+    width: 50%;
+  }
+
+  .descriptionArticleCard {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .descriptionArticleTitle {
+    font-size: 50px;
+    margin-bottom: 5%;
+  }
+
+  #scheduleButton,
+  #trackingButton,
+  #organizeButton {
+    display: inline-block;
+    width: 48%;
+    margin-right: 5%;
+    text-align: center;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 12px 15px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+
+  #organizeButton {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+
+  #scheduleButton {
+    padding: 8px 10px 8px 10px;
+    width: 100px;
+  }
+
+  #trackingButton {
+    padding: 8px 10px 8px 10px;
+    width: 100px;
+  }
+
+  #organizeButton {
+    margin-top: 10px;
+    padding: 8px 10px 8px 10px;
+    width: 100px;
+  }
+
+  .descriptionArticleMenuButton img {
+    margin-right: 10px;
+  }
+
+  .footer {
+    height: 200px;
+    padding-top: 35px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .descriptionArticle {
+    flex-direction: column;
+  }
+
+  .descriptionArticleImage {
+    width: 100%;
+  }
+
+  .descriptionArticleCard {
+    margin-top: 5%;
+  }
+
+  .descriptionArticleTitle {
+    font-size: 40px;
+    margin-bottom: 3%;
+  }
+
+  .descriptionArticleMenuButton {
+    width: 100%;
+  }
+
+  .descriptionArticleList li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .footer {
+    align-items: flex-start;
+  }
+
+  .icon-social {
+    align-self: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .descriptionArticleTitle {
+    font-size: 30px;
+    margin-bottom: 2%;
+  }
+
+  .descriptionArticleParagraph {
+    font-size: 16px;
+    margin-bottom: 3%;
+  }
+
+  .descriptionArticlePoint li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .descriptionArticleList li {
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .descriptionArticleButton {
+    width: 100%;
+  }
+
+  #descriptionArticlePrivacyButton {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .footer__container {
+    max-width: 100%;
+  }
+}

@@ -38,3 +38,44 @@
     width: 20%;
     height: 15%;
   }
+
+  @media (min-width: 768px) {
+    body {
+      margin-top: 3%;
+      padding-left: 6%;
+      padding-right: 9%;
+      justify-content: center;
+      font-family: var(--fontFamily);
+    }
+  
+    .downloadButton {
+      width: 20%;
+      height: 15%;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    body {
+      margin-top: 5%;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  
+    .downloadButton {
+      width: 15%;
+      height: 20%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      margin-top: 7%;
+      padding-left: 3%;
+      padding-right: 3%;
+    }
+  
+    .downloadButton {
+      width: 10%;
+      height: 25%;
+    }
+  }

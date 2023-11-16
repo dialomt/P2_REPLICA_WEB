@@ -72,16 +72,21 @@
     margin-top: 15px;
   }
   
-  @media (max-width: 768px) {
-    .footer {
-        align-items: flex-start;
-    }
-  
-    .footer__container {
-        max-width: 100%;
-    }
-  
-    .icon-social {
-        align-self: center;
-    }
+ 
+@media (max-width: 768px) {
+  .footer {
+    align-items: flex-start;
   }
+
+  .footer__container {
+    max-width: 100%;
+  }
+
+  .icon-social {
+    align-self: center;
+  }
+
+  .icon__arrow {
+    margin-left: 0;
+  }
+}

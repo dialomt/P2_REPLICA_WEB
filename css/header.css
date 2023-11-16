@@ -108,3 +108,177 @@ figcaption {
   color: #333333;
   margin-top: 15%;
 }
+
+@media (min-width: 768px) {
+  #geometricShapesImages {
+    padding-top: 6%;
+  }
+
+  #headerGreenDiamond {
+    width: 1.3%;
+  }
+
+  #headerYellowCircle {
+    width: 3%;
+    padding-left: 1%;
+  }
+
+  article {
+    padding-top: 2%;
+  }
+
+  h1 {
+    font-size: 70px;
+    padding-bottom: 1.5%;
+  }
+
+  p {
+    margin-left: 14%;
+    margin-right: 14%;
+  }
+
+  #decorativeBlueCircle {
+    width: 8%;
+  }
+
+  #headerDownloadButtons {
+    width: 70%;
+    margin-top: 2%;
+    margin-right: 16%;
+    padding-bottom: 5%;
+  }
+
+  #headerIphoneImage {
+    margin-top: 75px;
+  }
+
+  .icons {
+    margin-bottom: 5%;
+  }
+
+  .boxIcons img {
+    width: 120px;
+  }
+}
+
+@media (max-width: 767px) {
+  #geometricShapesImages {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #headerGreenDiamond {
+    width: 5%;
+  }
+
+  #headerYellowCircle {
+    width: 10%;
+    padding-left: 0;
+  }
+
+  article {
+    text-align: center;
+    padding-top: 5%;
+  }
+
+  h1 {
+    font-size: 50px;
+    padding-bottom: 1%;
+  }
+
+  p {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #decorativeBlueCircle {
+    width: 20%;
+  }
+
+  #headerDownloadButtons {
+    width: 100%;
+    margin-top: 5%;
+    margin-right: 0;
+    padding-bottom: 10%;
+    flex-direction: column;
+  }
+
+  #appleDownload,
+  #googlePlayDownload {
+    margin-bottom: 5%;
+  }
+
+  #headerIphoneImage {
+    width: 80%;
+    margin-top: 50px;
+  }
+
+  .icons {
+    margin-bottom: 10%;
+  }
+
+  .boxIcons img {
+    width: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  #geometricShapesImages {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #headerGreenDiamond {
+    width: 10%;
+  }
+
+  #headerYellowCircle {
+    width: 20%;
+    padding-left: 0;
+  }
+
+  article {
+    text-align: center;
+    padding-top: 5%;
+  }
+
+  h1 {
+    font-size: 40px;
+    padding-bottom: 1%;
+  }
+
+  p {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #decorativeBlueCircle {
+    width: 30%;
+  }
+
+  #headerDownloadButtons {
+    width: 100%;
+    margin-top: 5%;
+    margin-right: 0;
+    padding-bottom: 10%;
+    flex-direction: column;
+  }
+
+  #appleDownload,
+  #googlePlayDownload {
+    margin-bottom: 5%;
+  }
+
+  #headerIphoneImage {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .icons {
+    margin-bottom: 10%;
+  }
+
+  .boxIcons img {
+    width: 60px;
+  }
+}

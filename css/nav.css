@@ -92,3 +92,57 @@ nav {
   color: #fd4460;
 
 }
+
+
+@media (min-width: 768px) {
+  #navBar {
+    width: 50%;
+  }
+
+  #navBarDownloadButton {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+}
+
+@media (max-width: 767px) {
+  #navBar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #logo {
+    margin-bottom: 10px;
+  }
+
+  #navBar li {
+    text-align: left;
+    width: 100%;
+  }
+
+  #navBarDownloadButton {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media (max-width: 480px) {
+  #navBar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #logo {
+    margin-bottom: 10px;
+  }
+
+  #navBar li {
+    text-align: left;
+    width: 100%;
+  }
+
+  #navBarDownloadButton {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
