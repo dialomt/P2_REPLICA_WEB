@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext);
+:root {
+    --fontFamily: "Open Sans", sans-serif;
+    --principalBackgroundColor: #f7fafd;
+    --principalLeetterColor: #333333;
+    --secondaryLetterColor: #777777;
+    --tertiary-letter-color: #ff556e;
+    --quartery-letter-color: #8e8e8e;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin-top: 3%;
+    padding-left: 6%;
+    padding-right: 9%;
+    justify-content: center;
+    font-family: var(--fontFamily);
+  }
+  
+  .downloadButton {
+    border-radius: 50px;
+    background-color: #ff556e;
+    border: none;
+    color: white;
+    font-family: var(--fontFamily);
+    font-weight: bold;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 20%;
+    height: 15%;
+  }

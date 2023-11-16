@@ -1,0 +1,110 @@
+@import url(./styles.css);
+
+#geometricShapesImages {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 6%;
+}
+
+#headerGreenDiamond {
+  width: 1.3%;
+}
+
+#headerYellowCircle {
+  width: 3%;
+  padding-left: 1%;
+}
+
+article {
+  padding-top: 2%;
+}
+
+h1 {
+  text-align: center;
+  font-family: var(--fontFamily);
+  font-size: 70px;
+  font-weight: bolder;
+  color: #333333;
+  padding-bottom: 1.5%;
+}
+
+p {
+  text-align: center;
+  font-family: 3em;
+  color: #716f6f;
+  margin-left: 14%;
+  margin-right: 14%;
+  max-width: 100ch;
+  
+}
+
+#decorativeBlueCircle {
+    width: 8%;
+  }
+
+#headerDownloadButtons {
+  width: 70%;
+  float: right;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  margin-right: 16%;
+  padding-bottom: 5%;
+  color: white;
+}
+
+#appleDownload {
+  margin-right: 0.5%;
+}
+
+#googlePlayDownload {
+  margin-left: 0.5%;
+}
+
+@keyframes shake {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(-5px, 5px); }
+  50% { transform: translate(5px, -5px); }
+  75% { transform: translate(5px, 5px); }
+  100% { transform: translate(-5px, -5px); }
+}
+
+#headerIphoneImage {
+    width: 100%;
+    max-width: 40%;
+    height: 40%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 75px;
+    animation: shake 3s infinite;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 5%;
+}
+
+.boxIcons {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  
+}
+
+.boxIcons img {
+  width: 120px;
+  transition: transform 0.3s ease;
+}
+.boxIcons img:hover {
+  transform: scale(1.2);
+  filter: brightness(1.2);
+}
+
+figcaption {
+  font-family: var(--fontFamily);
+  font-weight: bold;
+  color: #333333;
+  margin-top: 15%;
+}

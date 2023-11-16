@@ -1,0 +1,94 @@
+@import url("./styles.css");
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  
+}
+
+#logo {
+  width: 13%;
+  margin-left: 0.5%;
+}
+
+#navBar {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  list-style: none;
+}
+
+#navBar li a {
+  color: #333333;
+}
+
+#navBar li a:hover {
+  color: #ff556e;
+}
+
+.dropDownButton {
+  padding: 14;
+  background-color: inherit;
+  border: none;
+  font-weight: bold;
+  font-size: 98%;
+  color: #ef0000;
+}
+
+.dropDownButton:hover {
+  color: #ff556e;
+}
+
+
+/*aqio empueza*/
+
+.dropDownButton {
+  background: none;
+  border: none;
+  color: rgb(6, 6, 6);
+  cursor: pointer;
+  font-weight: bold;
+  position: relative;
+  display: inline;
+}
+
+.dropDownContent {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropDownButton:active .dropDownContent,
+.dropDownButton:focus .dropDownContent {
+  display: block;
+}
+
+/*acaba*/
+#navBarDownloadButton {
+  border-radius: 50px;
+  background-color: inherit;
+  border: 2px solid #f74e68;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 30%;
+  padding-right: 30%;
+  z-index: 3;
+  font-family: var(--fontFamily);
+  color: #ed526a;
+}
+
+#navBarDownloadButton a{
+
+  font-weight: bold ;
+  font-size: 15px;
+  color: #fd4460;
+
+}
