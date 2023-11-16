@@ -5,7 +5,7 @@ Features
 Getting Started
 
 Introducción
-es una página web creada utilizando HTML y CSS. Incluye una barra de navegación, sección de encabezado, contenido principal con artículos de descripción, un pie de página con información de contacto y enlaces, y una función de desplazamiento suave hacia arriba.
+es una página web creada utilizando HTML y CSS. Incluye una barra de navegación, sección de encabezado, contenido principal con artículos de descripción, un pie de página con información de contacto y enlaces, y una función de desplazamiento hacia arriba.
 
 Características
 Barra de Navegación: La barra de navegación proporciona fácil acceso a diferentes secciones incluyendo "Descripción," "Características," "Capturas," y enlaces adicionales bajo el menú desplegable "Extra."
@@ -14,6 +14,6 @@ Sección de Encabezado: El encabezado presenta con un título, descripción y bo
 
 Artículos de Descripción: La sección principal incluye artículos descriptivos con imágenes, títulos, párrafos y listas para resaltar las características y beneficios clave de la aplicación.
 
-Pie de Página: El pie de página contiene información de contacto, enlaces valiosos (Términos y Condiciones, Política de Privacidad, Detalles del Artículo), enlaces a otras aplicaciones y iconos de redes sociales.
+Pie de Página: El pie de página contiene información de contacto, enlaces (Términos y Condiciones, Política de Privacidad, Detalles del Artículo), enlaces a otras aplicaciones y iconos de redes sociales.
 
-Desplazamiento Suave hacia Arriba: Los usuarios pueden desplazarse suavemente hacia la parte superior de la página haciendo clic en el ícono de flecha en el pie de página.
+Desplazamiento Suave hacia Arriba: pueden desplazarse hacia la parte superior de la página haciendo clic en el ícono de flecha en el pie de página.
