@@ -5,12 +5,12 @@ Features
 Getting Started
 
 Introducción
-La página de aterrizaje de la aplicación móvil Sync es una página web receptiva creada utilizando HTML, CSS y JavaScript. Incluye una barra de navegación, sección de encabezado, contenido principal con artículos de descripción, un pie de página con información de contacto y enlaces, y una función de desplazamiento suave hacia arriba.
+es una página web creada utilizando HTML y CSS. Incluye una barra de navegación, sección de encabezado, contenido principal con artículos de descripción, un pie de página con información de contacto y enlaces, y una función de desplazamiento suave hacia arriba.
 
 Características
-Barra de Navegación: La barra de navegación proporciona fácil acceso a diferentes secciones de la página de aterrizaje, incluyendo "Descripción," "Características," "Capturas," y enlaces adicionales bajo el menú desplegable "Extra."
+Barra de Navegación: La barra de navegación proporciona fácil acceso a diferentes secciones incluyendo "Descripción," "Características," "Capturas," y enlaces adicionales bajo el menú desplegable "Extra."
 
-Sección de Encabezado: El encabezado presenta la aplicación móvil con un título, descripción y botones de descarga tanto para las tiendas de Apple como para Google Play.
+Sección de Encabezado: El encabezado presenta con un título, descripción y botones de descarga tanto para las tiendas de Apple como para Google Play.
 
 Artículos de Descripción: La sección principal incluye artículos descriptivos con imágenes, títulos, párrafos y listas para resaltar las características y beneficios clave de la aplicación.
 
